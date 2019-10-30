@@ -1,8 +1,8 @@
 
-m = int(input("Wprowadz wartosc m: "))
-n = int(input("Wprowadz wartosc n: "))
+m=int(input("Wprowadz liczbę wierszy:"))
+n=int(input("Wprowadz liczbe kolumn:"))
 
-tablica= []
+tablica=[]
 for i in range(m):
     tablica.append([])
     for j in range(n):
