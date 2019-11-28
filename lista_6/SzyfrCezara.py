@@ -1,4 +1,4 @@
-KLUCZ = 15
+KLUCZ = 13
 
 
 def szyfruj(napis):
