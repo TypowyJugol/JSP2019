@@ -3,7 +3,7 @@
 
 import re
 
-def lookandsay(limit, sequence = 2):
+def lookandsay(limit, sequence = 1):
 
     if limit > 1:
 
