@@ -1,0 +1,10 @@
+nr PESEL: 31012026517 data urodzenia: %20-%1-%1931 Płeć: Mężczyzna
+nr PESEL: 77061873267 data urodzenia: %18-%6-%1977 Płeć: Kobieta
+nr PESEL: 84302131295 data urodzenia: %21-%10-%2084 Płeć: Mężczyzna
+nr PESEL: 19031086189 data urodzenia: %10-%3-%1919 Płeć: Kobieta
+nr PESEL: 38122330051 data urodzenia: %23-%12-%1938 Płeć: Mężczyzna
+nr PESEL: 65210786135 data urodzenia: %07-%1-%2065 Płeć: Mężczyzna
+nr PESEL: 18281681753 data urodzenia: %16-%8-%2018 Płeć: Mężczyzna
+nr PESEL: 47080726387 data urodzenia: %07-%8-%1947 Płeć: Kobieta
+nr PESEL: 08060821920 data urodzenia: %08-%6-%1908 Płeć: Kobieta
+nr PESEL: 40113041888 data urodzenia: %30-%11-%1940 Płeć: Kobieta

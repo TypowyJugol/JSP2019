@@ -18,14 +18,17 @@ def szyfruj(napis):
             zaszyfrowany += napis[i]
     return zaszyfrowany
 
+while True:
+    try:
+        dir_path2 = input("Wprowadź ścieżkę do pliku: ")
+        f = open(dir_path2, "r")
+        napis = f.read()
+        f.close()
+        break
+    except:
+        print("Podany plik nie istnieje!")
 
-
-dir_path2 = input("Wprowadź ścieżkę do pliku: ")
 KLUCZ = int(input("Wprowadź klucz(przesunięcie w szyfrze) w zakresie od 1 do 10: "))
-
-f = open(dir_path2, "r")
-napis = f.read()
-f.close()
 napis_zaszyfrowany = szyfruj(napis)
 
 rok = time.strftime("%Y", time.localtime())
@@ -35,8 +38,11 @@ dzien = time.strftime("%d", time.localtime())
 dir_path3 = ("plik_zaszyfrowany%" + str(KLUCZ) + "_" + "%" + str(rok) + "%" + str(miesiac) + "%" + str(dzien) + ".txt")
 
 katalog = input("Wprowadź ścieżkę do katalogu w którym mam zapisać plik: ")
-os.makedirs(katalog)
-os.chdir(katalog)
+try:
+    os.makedirs(katalog)
+    os.chdir(katalog)
+except:
+    os.chdir(katalog)
 
 f = open(dir_path3, "w")
 f.write(napis_zaszyfrowany)
